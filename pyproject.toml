@@ -9,7 +9,7 @@ description = "Historically grounded reconstruction of the flat-file ChrisAI run
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{name = "Christopher Campbell"}]
-license = {text = "License selection pending public release review"}
+license = {text = "Apache-2.0"}
 
 [project.scripts]
 chrisai = "chrisai_runtime.cli:main"
