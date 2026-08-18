@@ -1,0 +1,26 @@
+ChrisAI Runtime — Historical Reconstruction
+Copyright 2026 Christopher Campbell
+
+This product includes software and documentation developed by Christopher Campbell.
+
+ChrisAI is the historical flat-file runtime lineage that preceded Nexus Synapse.
+This repository is a historically grounded reconstruction prepared from surviving
+source artifacts and documentation; it is not represented as a byte-for-byte
+checkout of the original August 2025 codebase.
+
+AI-assisted development and review tools were used during the original project
+history and during preparation of this reconstruction. Christopher Campbell is
+the human project author and maintainer. No AI model, provider, or coding tool is
+represented here as an author, owner, or licensor of ChrisAI.
+
+External models, libraries, services, runtimes, and protocols referenced by this
+repository remain the property of their respective owners and are subject to
+their own licenses and terms. No third-party model weights are distributed here.
+
+The Apache License 2.0 applies only to material in this public ChrisAI repository
+that Christopher Campbell has the right to license. It does not publish or
+relicense private Nexus Synapse runtime code, protected prompts, production data,
+private schemas, credentials, or other material outside this repository.
+
+See ATTRIBUTION.md for the project authorship, provenance, evidence-labeling, and
+lineage boundaries used by this reconstruction.
