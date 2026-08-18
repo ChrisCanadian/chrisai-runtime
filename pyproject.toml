@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chrisai-runtime-reconstruction"
+version = "0.1.0"
+description = "Historically grounded reconstruction of the flat-file ChrisAI runtime that preceded Nexus Synapse."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Christopher Campbell"}]
+license = {text = "License selection pending public release review"}
+
+[project.scripts]
+chrisai = "chrisai_runtime.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+chrisai_runtime = ["defaults/*.txt"]
