@@ -1,5 +1,7 @@
 # ChrisAI Runtime — Historical Reconstruction
 
+[![CI](https://github.com/ChrisCanadian/chrisai-runtime/actions/workflows/ci.yml/badge.svg)](https://github.com/ChrisCanadian/chrisai-runtime/actions/workflows/ci.yml)
+
 This repository reconstructs the **flat-file ChrisAI runtime architecture that preceded Nexus Synapse**.
 
 It is intentionally **pre-database** and **pre-SSR**. It is not a stripped version of modern Nexus Synapse, and it does not reproduce later database schemas, Structured State Reconstruction, Senate/Thinker systems, modern memory retrieval, production tool execution, or private Nexus internals.
@@ -112,6 +114,12 @@ The surviving early persona-update test separately records `helpful_persona.txt`
 ## Evidence
 
 See [`docs/ACTUAL_COMPONENT_INVENTORY.md`](docs/ACTUAL_COMPONENT_INVENTORY.md) and [`docs/EVIDENCE_TRAIL.md`](docs/EVIDENCE_TRAIL.md).
+
+## License
+
+Licensed under the **Apache License 2.0**. See [`LICENSE`](LICENSE).
+
+The license applies to this public historical reconstruction. It does not imply publication or licensing of private Nexus Synapse runtime code that is outside this repository.
 
 ## Status
 
