@@ -115,6 +115,18 @@ The surviving early persona-update test separately records `helpful_persona.txt`
 
 See [`docs/ACTUAL_COMPONENT_INVENTORY.md`](docs/ACTUAL_COMPONENT_INVENTORY.md) and [`docs/EVIDENCE_TRAIL.md`](docs/EVIDENCE_TRAIL.md).
 
+Historical claims should remain distinguishable as directly verified, configuration-supported, inferred, legacy-unknown, or unavailable rather than silently filling gaps in the surviving record. See [`ATTRIBUTION.md`](ATTRIBUTION.md) for the provenance labels and authorship policy used by this reconstruction.
+
+## Authorship and attribution
+
+**Christopher Campbell** is the human author and maintainer of ChrisAI and this historical reconstruction.
+
+AI coding and review tools were used as development assistants during the project history and reconstruction work. They are not presented as authors, owners, or licensors of ChrisAI. External models, libraries, providers, services, and protocols remain subject to their own licenses and ownership.
+
+Compatibility, citation, or collaboration with another project does **not** imply shared authorship, shared IP, ownership transfer, or reciprocal licensing.
+
+See [`ATTRIBUTION.md`](ATTRIBUTION.md) and [`NOTICE`](NOTICE) for the full attribution and provenance boundary.
+
 ## License
 
 Licensed under the **Apache License 2.0**. See [`LICENSE`](LICENSE).
