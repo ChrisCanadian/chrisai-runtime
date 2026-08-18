@@ -4,7 +4,13 @@ import re
 
 
 class VocabularyManager:
-    """Small executable subset of the surviving August 2025 vocabulary logic."""
+    """Small executable subset of the surviving August 2025 vocabulary logic.
+
+    ``simplify()`` is intentionally not wired into the reconstructed response
+    hot path because the surviving archive proves the utility existed but does
+    not establish its exact placement. See ``HISTORY.md`` and
+    ``docs/EVIDENCE_TRAIL.md`` for the reconstruction boundary.
+    """
 
     def __init__(self) -> None:
         self.word_map = {
