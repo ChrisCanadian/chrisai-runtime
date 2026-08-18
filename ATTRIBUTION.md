@@ -46,6 +46,14 @@ References to collaborators, external projects, research, or compatible systems 
 
 Compatibility is not ownership, and citation is not transfer of authorship.
 
+## Attribution-operation reference
+
+The format of this public provenance record was updated with **Moon Source's [Credits & Attribution Ops Protocol](https://github.com/luahelenammc/Moon-Source/blob/main/docs/CREDITS_ATTRIBUTION_OPS.md)** as **reference / inspiration**. Moon Source identifies Lua Helena Moon Martins Cardoso (Moon) as its human creator and final authority and Moon + Áurion as its AI-assisted coauthorial development relationship. [Professional context](https://www.luahelena.com.br/ia/?lang=en).
+
+That influence concerns the repeatable attribution practice only. It does not imply that Moon Source authored, inspired, validated, or endorsed ChrisAI, this reconstruction, or pre-existing Nexus architecture. It does not imply partnership, shared ownership, official derivation, or reuse permission.
+
+See the [Nexus portfolio credits policy](https://github.com/ChrisCanadian/nexus-synapse-engineering-portfolio/blob/main/CREDITS_AND_ATTRIBUTION.md) for the cross-repository operation.
+
 ## Citation
 
 For informal citation:
