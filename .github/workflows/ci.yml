@@ -32,3 +32,9 @@ jobs:
 
       - name: Test
         run: pytest -q
+
+      - name: Module CLI smoke check
+        run: printf '/quit\n' | python -m chrisai_runtime
+
+      - name: Installed console-script smoke check
+        run: printf '/quit\n' | chrisai
