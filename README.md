@@ -8,6 +8,12 @@ It is intentionally **pre-database** and **pre-SSR**. It is not a stripped versi
 
 The reconstruction is based on surviving historical code, dated configuration, migration code, and pre-migration snapshots preserved in `ChrisCanadian/Nexus-Historic`. The original early Git history was not recoverable, so this repository is a **historically grounded reconstruction**, not a byte-for-byte August 2025 checkout.
 
+## What this repository is for
+
+ChrisAI is published as an **executable historical reference and architectural donor**. It is useful for examining the earlier separation between persona, memory, input-state detection, learning persistence, prompt construction, and model inference without importing the much larger modern Nexus architecture.
+
+It should **not** be treated as a lightweight or feature-reduced current Nexus Synapse runtime. Modern capabilities belong in their own systems rather than being backported here simply to make this reconstruction more capable.
+
 ## What this reconstructs
 
 The surviving August 26, 2025 settings identify the early storage layout as flat files, while a surviving early persona-update test records additional persona files and the persona change log:
@@ -83,6 +89,12 @@ pip install -e .
 python -m chrisai_runtime
 ```
 
+After installation, the console entry point is also available:
+
+```bash
+chrisai
+```
+
 By default the runtime uses a deterministic local test model so the reconstruction can be exercised without any external dependency.
 
 To use an Ollama-compatible local endpoint:
@@ -117,6 +129,12 @@ See [`docs/ACTUAL_COMPONENT_INVENTORY.md`](docs/ACTUAL_COMPONENT_INVENTORY.md) a
 
 Historical claims should remain distinguishable as directly verified, configuration-supported, inferred, legacy-unknown, or unavailable rather than silently filling gaps in the surviving record. See [`ATTRIBUTION.md`](ATTRIBUTION.md) for the provenance labels and authorship policy used by this reconstruction.
 
+## Release acceptance
+
+The closure criteria and optional live-Ollama verification procedure are recorded in [`docs/RELEASE_ACCEPTANCE.md`](docs/RELEASE_ACCEPTANCE.md).
+
+The historical core is considered closed at v0.1.0. Future changes should be limited to bug fixes, compatibility or packaging fixes, documentation/provenance clarification, or corrections supported by newly recovered historical evidence.
+
 ## Authorship and attribution
 
 **Christopher Campbell** is the human author and maintainer of ChrisAI and this historical reconstruction.
@@ -135,6 +153,6 @@ The license applies to this public historical reconstruction. It does not imply 
 
 ## Status
 
-`v0.1.0-reconstruction-candidate`
+`v0.1.0`
 
 The code is deliberately small so each reconstructed responsibility can be traced back to surviving historical evidence. It should be treated as an executable historical reference, not evidence that every line existed in exactly this form in August 2025.
